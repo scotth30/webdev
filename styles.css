@@ -1,0 +1,332 @@
+/* Set background color, font family, and reset margins and padding for the entire body */
+body {
+    background: #0A0A0A;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for form controls, such as input fields */
+.form-control {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+    font-weight: normal;
+    font-size: 13px;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    background: #4682B4;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #B0C4DE;
+    border-radius: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Styles for the active and hover state of navigation links */
+.navbar a:active,
+.navbar a:hover {
+    border: 2px solid #FF6150 !important;
+    background: #333333 !important;
+}
+
+/* Styles for primary buttons */
+.btn-primary {
+    color: #333333 !important;
+    background-color: #4682B4 !important;
+    border-color: #007bff !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    color: #FF6150 !important;
+    background-color: #333333 !important;
+    border-color: #FF6150 !important;
+}
+
+/* Styles for the navbar brand */
+.navbar-brand {
+    font-size: 20px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: 0; /* Updated */
+}
+
+/* Styles for images within navigation links */
+.nav-link img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Styles for the navbar brand in the navigation bar */
+.navbar .navbar-brand {
+    font-size: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    justify-content: start;
+}
+
+/* Styles for the hover state of the navbar brand */
+.navbar .navbar-brand:hover {
+    color: #72FF13;
+    background: none !important;
+    border: none !important;
+    padding-left: 0;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+/* Styles for the bold text within the navbar brand */
+.navbar .navbar-brand b {
+    color: #FF6150;
+}
+
+/* Styles for inline forms within the navbar */
+.navbar .form-inline {
+    display: inline-block;
+}
+
+/* Styles for navigation links */
+.navbar a {
+    color: #C0C0C0;
+    font-size: 15px;
+    background: #4682B4;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the search box */
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding-right: 35px;
+    border-color: #dfe3e8;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+.search-box .input-group-text {
+    min-width: 35px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    padding: 7px;
+    height: 100%;
+}
+
+.search-box i {
+    color: #a0a5b1;
+    font-size: 19px;
+}
+
+/* Styles for the "Sign Up" button in the navbar */
+.navbar .sign-up-btn {
+    min-width: 110px;
+    max-height: 36px;
+}
+
+.sign-up-btn:focus,
+.sign-up-btn:show{
+    color: #FF6150 !important;
+    background: #333333 !important;
+}
+
+/* Styles for the dropdown menu in the navbar */
+.navbar .dropdown-menu {
+    color: #FF4040;
+    background-color: #C0C0C0;
+    font-weight: normal;
+    border-radius: 1px;
+    border-color: #4682B4;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+.dropdown-menu:hover {
+    color: #FF4040;
+    font-weight: normal;
+    border-radius: 1px;
+    border-color: #C0C0C0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+/* Styles for navigation links and hover state */
+.navbar a,
+.navbar a:active {
+    color: #333333;
+    padding: 8px 0;
+    background: transparent;
+    line-height: normal;
+    border-radius: 5px; /* Added */
+}
+
+.navbar a:hover {
+    color: #FF4040;
+    background: #D3D3D3;
+}
+
+/* Styles for the action form */
+.action-form {
+    width: 345px;
+    padding: 20px;
+    left: auto;
+    right: 0;
+    font-size: 14px;
+}
+
+/* Styles for a wide element */
+.wide {
+    width: 300px;
+}
+
+/* Styles for the separator */
+.or-seperator {
+    margin-top: 32px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.or-seperator b {
+    color: #C0C0C0;
+    padding: 0 8px;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 26px;
+    background: #333333;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+    z-index: 1;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item.dropdown .dropdown-menu.action-form {
+        width: 100%;
+        padding: 10px 15px;
+        background: transparent;
+        border: none;
+        right: auto;
+    }
+
+    .wide {
+        width: 248px;
+    }
+}
+
+/* Styles for the arrow down icon */
+.arrow-down {
+    margin-left: 3px;
+    border: solid #C0C0C0;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Styles for dropdown items with icons */
+.navbar-nav .nav-item.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle:active,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus{
+    color: #FF6150 !important;
+    background: #333333 !important;
+}
+
+.navbar-nav .nav-item.dropdown .arrow-down {
+    margin-left: 5px;
+    border: solid #C0C0C0;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Styles for navbar items */
+.navbar-nav .nav-item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-item:first-child + .nav-item {
+    margin-left: 5px;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-toggle {
+    border: none;
+}
+
+/* Styles for wide dropdown menus */
+.dropdown-menu.action-form.wide {
+    min-width: 250px;
+}
+
+.dropdown-menu.action-form.wide .form-group {
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.dropdown-menu.action-form.wide .form-check-label,
+.dropdown-menu.action-form.wide .form-group label {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu.action-form.wide .form-check-label a,
+.dropdown-menu.action-form.wide .form-group label a {
+    margin-left: 5px;
+}
+
+.dropdown-menu.action-form.wide .form-group .accept-terms {
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.dropdown-menu.action-form.wide .form-group.social-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.google-btn {
+background: #ff4040 !important;
+}
+
+.facebook-btn {
+background: #4267b2 !important;
+}
+
+
+.dropdown-menu.action-form.wide .form-group.social-btn .btn {
+    margin: 0 5px;
+}
+
+.form-check{
+margin-left: 10px;
+}
