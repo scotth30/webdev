@@ -31,12 +31,12 @@ body {
 .navbar a:active,
 .navbar a:hover {
     border: 2px solid #FF6150 !important;
-    background: #333333 !important;
+    background: #c0c0c0 !important;
 }
 
 /* Styles for primary buttons */
 .btn-primary {
-    color: #333333 !important;
+    color: #0A0A0A !important;
     background-color: #4682B4 !important;
     border-color: #007bff !important;
 }
@@ -45,7 +45,7 @@ body {
 .btn-primary:focus,
 .btn-primary:hover {
     color: #FF6150 !important;
-    background-color: #333333 !important;
+    background-color: #c0c0c0 !important;
     border-color: #FF6150 !important;
 }
 
@@ -98,7 +98,7 @@ body {
 
 /* Styles for navigation links */
 .navbar a {
-    color: #C0C0C0;
+    color: #60A3D9;
     font-size: 15px;
     background: #4682B4;
     flex: 1;
@@ -150,7 +150,7 @@ body {
 /* Styles for the dropdown menu in the navbar */
 .navbar .dropdown-menu {
     color: #FF4040;
-    background-color: #C0C0C0;
+    background-color: #60A3D9;
     font-weight: normal;
     border-radius: 1px;
     border-color: #4682B4;
@@ -161,7 +161,7 @@ body {
     color: #FF4040;
     font-weight: normal;
     border-radius: 1px;
-    border-color: #C0C0C0;
+    border-color: #60A3D9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
 
@@ -178,7 +178,7 @@ body {
 
 .navbar a:hover {
     color: #FF4040;
-    background: #D3D3D3;
+    background: #60A3D9;
 }
 
 /* Styles for the action form */
@@ -203,7 +203,7 @@ body {
 }
 
 .or-seperator b {
-    color: #C0C0C0;
+    color: #60A3D9;
     padding: 0 8px;
     width: 30px;
     height: 30px;
@@ -238,7 +238,7 @@ body {
 .arrow-down {
     margin-left: 5px;
     /* Reduce the margin to align the arrow with the dropdown text */
-    border: solid #C0C0C0;
+    border: solid #60A3D9;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
@@ -258,8 +258,9 @@ body {
 }
 
 
+
 .dropdown-menu.action-form.wide {
-    background: #C0C0C0 !important;
+    background: #60A3D9 !important;
 }
 
 .navbar-nav .nav-item.dropdown .dropdown-toggle {
@@ -268,16 +269,18 @@ body {
     border: none;
 }
 
+
+
 .dropdown-toggle:active,
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
     color: #FF6150 !important;
-    background: #333333 !important;
+    background: #60A3D9 !important;
 }
 
 .navbar-nav .nav-item.dropdown .arrow-down {
     margin-left: 5px;
-    border: solid #C0C0C0;
+    border: solid #60A3D9;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
@@ -346,7 +349,7 @@ body {
     align-self: center;
     width: 20px;
     height: 2px !important;
-    background: #C0C0C0;
+    background: #60A3D9;
     margin: 2px 0;
 }
 
