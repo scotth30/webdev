@@ -54,7 +54,8 @@ body {
     font-size: 20px;
     padding-right: 50px;
     margin-right: auto;
-    margin-left: 0; /* Updated */
+    margin-left: 16px;
+    /* Add this line to align the brand with the left edge of the navbar */
 }
 
 /* Styles for images within navigation links */
@@ -141,7 +142,7 @@ body {
 }
 
 .sign-up-btn:focus,
-.sign-up-btn:show{
+.sign-up-btn:show {
     color: #FF6150 !important;
     background: #333333 !important;
 }
@@ -171,7 +172,8 @@ body {
     padding: 8px 0;
     background: transparent;
     line-height: normal;
-    border-radius: 5px; /* Added */
+    border-radius: 5px;
+    /* Added */
 }
 
 .navbar a:hover {
@@ -234,13 +236,17 @@ body {
 
 /* Styles for the arrow down icon */
 .arrow-down {
-    margin-left: 3px;
+    margin-left: 5px;
+    /* Reduce the margin to align the arrow with the dropdown text */
     border: solid #C0C0C0;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    align-self: center;
+    /* Add this line to vertically center the arrow */
+
 }
 
 /* Styles for dropdown items with icons */
@@ -257,7 +263,7 @@ body {
 
 .dropdown-toggle:active,
 .dropdown-toggle:hover,
-.dropdown-toggle:focus{
+.dropdown-toggle:focus {
     color: #FF6150 !important;
     background: #333333 !important;
 }
@@ -277,7 +283,7 @@ body {
     margin-right: 5px;
 }
 
-.navbar-nav .nav-item:first-child + .nav-item {
+.navbar-nav .nav-item:first-child+.nav-item {
     margin-left: 5px;
 }
 
@@ -317,26 +323,28 @@ body {
 }
 
 .google-btn {
-background: #ff4040 !important;
+    background: #ff4040 !important;
 }
 
 .facebook-btn {
-background: #4267b2 !important;
+    background: #4267b2 !important;
 }
 
-.navbar-toggler-icon{
-display:flex;
-flex-wrap:wrap;
-flex-direction: row;
-justify-content: center;
-  border: 2px solid #C0C0C0;
+.navbar-toggler-icon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 30px;
+    /* Increase the width to accommodate the three bars */
 }
 
-.bar{
-  width: 20px;
-  height: 3px !important;
-  background: #C0C0C0;
-  margin: 3px 0;
+.bar {
+    align-self: center;
+    width: 20px;
+    height: 2px !important;
+    background: #C0C0C0;
+    margin: 2px 0;
 }
 
 
@@ -344,6 +352,6 @@ justify-content: center;
     margin: 0 5px;
 }
 
-.form-check{
-margin-left: 10px;
+.form-check {
+    margin-left: 10px;
 }
