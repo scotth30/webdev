@@ -333,11 +333,9 @@ justify-content: center;
 }
 
 .bar{
-
-
   width: 20px;
   height: 3px !important;
-  background-color: #C0C0C0;
+  background: #C0C0C0;
   margin: 3px 0;
 }
 
