@@ -30,7 +30,6 @@ body {
 /* Styles for the active and hover state of navigation links */
 .navbar a:active,
 .navbar a:hover {
-    border: 2px solid #FF6150 !important;
     background: #c0c0c0 !important;
 }
 
@@ -46,7 +45,6 @@ body {
 .btn-primary:hover {
     color: #FF6150 !important;
     background-color: #c0c0c0 !important;
-    border-color: #FF6150 !important;
 }
 
 /* Styles for the navbar brand */
@@ -149,7 +147,7 @@ body {
 
 /* Styles for the dropdown menu in the navbar */
 .navbar .dropdown-menu {
-    color: #FF4040;
+    color: #0A0A0A;
     background-color: #60A3D9;
     font-weight: normal;
     border-radius: 1px;
@@ -158,7 +156,7 @@ body {
 }
 
 .dropdown-menu:hover {
-    color: #FF4040;
+    color: #0A0A0A;
     font-weight: normal;
     border-radius: 1px;
     border-color: #60A3D9;
