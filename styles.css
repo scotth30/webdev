@@ -257,6 +257,11 @@ body {
 
 }
 
+
+.dropdown-menu.action-form.wide {
+    background: #C0C0C0 !important;
+}
+
 .navbar-nav .nav-item.dropdown .dropdown-toggle {
     display: flex;
     align-items: center;
