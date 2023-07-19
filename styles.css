@@ -1,10 +1,13 @@
 /* Set background color, font family, and reset margins and padding for the entire body */
+
 body {
-    background: #0A0A0A;
+    background: #EFFAFF;
     font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
     margin: 0;
     padding: 0;
 }
+
 
 /* Style for form controls, such as input fields */
 .form-control {
@@ -16,10 +19,10 @@ body {
 
 /* Styles for the navigation bar */
 .navbar {
-    background: #4682B4;
+    background: #3180B4;
     padding-left: 16px;
     padding-right: 16px;
-    border-bottom: 1px solid #bcd4e6;
+    border-bottom: 1px solid #EFFAFF;
     border-radius: 0;
     text-align: center;
     display: flex;
@@ -30,27 +33,27 @@ body {
 /* Styles for the active and hover state of navigation links */
 .navbar a:active,
 .navbar a:hover {
-    background: #bcd4e6 !important;
+    background: #EFFAFF !important;
 }
 
 /* Styles for primary buttons */
 .btn-primary {
     color: #0A0A0A !important;
-    background-color: #4682B4 !important;
-    border-color: #bcd4e6 !important;
+    background-color: #3180B4 !important;
+    border-color: #EFFAFF !important;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
     color: #0A0A0A !important;
-    background-color: #bcd4e6 !important;
-    border-color: #bcd4e6 !important;
+    background-color: #EFFAFF !important;
+    border-color: #3180B4 !important;
 }
 
 /* Styles for the navbar brand */
 .navbar-brand {
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 50px;
     margin-right: auto;
     margin-left: 16px;
@@ -59,7 +62,7 @@ body {
 
 /* Styles for images within navigation links */
 .nav-link img {
-    border-radius: 50%;
+    border-radius: 50;
     width: 36px;
     height: 36px;
     margin: -8px 0;
@@ -69,7 +72,7 @@ body {
 
 /* Styles for the navbar brand in the navigation bar */
 .navbar .navbar-brand {
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 20px;
     margin-right: auto;
     justify-content: start;
@@ -77,11 +80,11 @@ body {
 
 /* Styles for the hover state of the navbar brand */
 .navbar .navbar-brand:hover {
-    color: #72FF13;
+    color: #EFFAFF;
     background: none !important;
     border: none !important;
     padding-left: 0;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 20px;
 }
 
@@ -97,9 +100,9 @@ body {
 
 /* Styles for navigation links */
 .navbar a {
-    color: #60A3D9;
-    font-size: 15px;
-    background: #4682B4;
+    color: #EFFAFF;
+    font-size: 18px;
+    background: #3180B4;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -143,25 +146,28 @@ body {
 .sign-up-btn:focus,
 .sign-up-btn:show {
     color: #0A0A0A !important;
-    background: #333333 !important;
-    border-color: #bcd4e6 !important;
+    border-color: #EFFAFF !important;
 }
+
+.dropdown-item:hover {
+    border: solid #3180B4;
+}
+
 
 /* Styles for the dropdown menu in the navbar */
 .navbar .dropdown-menu {
     color: #0A0A0A;
-    background-color: #60A3D9;
+    background-color: #EFFAFF;
     font-weight: normal;
     border-radius: 1px;
-    border-color: #bcd4e6;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+    border-color: #3180B4 box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
 
 .dropdown-menu:hover {
     color: #0A0A0A;
     font-weight: normal;
     border-radius: 1px;
-    border-color: #bcd4e6;
+    border-color: #3180B4;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
 
@@ -178,7 +184,7 @@ body {
 
 .navbar a:hover {
     color: #0A0A0A;
-    background: #60A3D9;
+    background: #EFFAFF;
 }
 
 /* Styles for the action form */
@@ -188,6 +194,7 @@ body {
     left: auto;
     right: 0;
     font-size: 14px;
+    border: solid #3180B4;
 }
 
 /* Styles for a wide element */
@@ -203,14 +210,14 @@ body {
 }
 
 .or-seperator b {
-    color: #60A3D9;
+    color: #EFFAFF;
     padding: 0 8px;
     width: 30px;
     height: 30px;
     font-size: 13px;
     text-align: center;
     line-height: 26px;
-    background: #bcd4e6;
+    background: #EFFAFF;
     display: inline-block;
     border: 1px solid #e0e0e0;
     border-radius: 50%;
@@ -238,7 +245,7 @@ body {
 .arrow-down {
     margin-left: 5px;
     /* Reduce the margin to align the arrow with the dropdown text */
-    border: solid #bcd4e6;
+    border: solid #EFFAFF;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
@@ -254,13 +261,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid #3180B4;
 
 }
 
 
 
 .dropdown-menu.action-form.wide {
-    background: #60A3D9 !important;
+    background: #EFFAFF !important;
+    border: solid #3180B4;
 }
 
 .navbar-nav .nav-item.dropdown .dropdown-toggle {
@@ -275,12 +284,12 @@ body {
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
     color: #0A0A0A !important;
-    background: #60A3D9 !important;
+    background: #EFFAFF !important;
 }
 
 .navbar-nav .nav-item.dropdown .arrow-down {
     margin-left: 5px;
-    border: solid #bcd4e6;
+    border: solid #EFFAFF;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
@@ -312,11 +321,13 @@ body {
 .dropdown-menu.action-form.wide .form-group label {
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 
 .dropdown-menu.action-form.wide .form-check-label a,
 .dropdown-menu.action-form.wide .form-group label a {
     margin-left: 5px;
+    font-size: 14px;
 }
 
 .dropdown-menu.action-form.wide .form-group .accept-terms {
@@ -331,12 +342,12 @@ body {
 
 .google-btn {
     background: #ff4040 !important;
-    border-color: #bcd4e6 !important;
+    border-color: #3180B4;
 }
 
 .facebook-btn {
     background: #4267b2 !important;
-    border-color: #bcd4e6 !important;
+    border-color: #3180B4;
 }
 
 .navbar-toggler-icon {
@@ -351,7 +362,7 @@ body {
     align-self: center;
     width: 20px;
     height: 2px !important;
-    background: #60A3D9;
+    background: #EFFAFF;
     margin: 2px 0;
 }
 
