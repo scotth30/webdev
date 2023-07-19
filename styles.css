@@ -13,6 +13,7 @@ body {
     font-size: 13px;
 }
 
+
 /* Styles for the navigation bar */
 .navbar {
     background: #4682B4;
@@ -246,6 +247,7 @@ body {
 .navbar-nav .nav-item.dropdown {
     display: flex;
     align-items: center;
+
 }
 
 .navbar-nav .nav-item.dropdown .dropdown-toggle {
@@ -320,6 +322,23 @@ background: #ff4040 !important;
 
 .facebook-btn {
 background: #4267b2 !important;
+}
+
+.navbar-toggler-icon{
+display:flex;
+flex-wrap:wrap;
+flex-direction: row;
+justify-content: center;
+  border: 2px solid #C0C0C0;
+}
+
+.bar{
+
+
+  width: 20px;
+  height: 3px !important;
+  background-color: #C0C0C0;
+  margin: 3px 0;
 }
 
 
