@@ -19,7 +19,7 @@ body {
     background: #4682B4;
     padding-left: 16px;
     padding-right: 16px;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid #bcd4e6;
     border-radius: 0;
     text-align: center;
     display: flex;
@@ -30,22 +30,22 @@ body {
 /* Styles for the active and hover state of navigation links */
 .navbar a:active,
 .navbar a:hover {
-    background: #c0c0c0 !important;
+    background: #bcd4e6 !important;
 }
 
 /* Styles for primary buttons */
 .btn-primary {
     color: #0A0A0A !important;
     background-color: #4682B4 !important;
-    border-color: #c0c0c0 !important;
+    border-color: #bcd4e6 !important;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
     color: #FF6150 !important;
-    background-color: #c0c0c0 !important;
-    border-color: #c0c0c0 !important;
+    background-color: #bcd4e6 !important;
+    border-color: #bcd4e6 !important;
 }
 
 /* Styles for the navbar brand */
@@ -144,7 +144,7 @@ body {
 .sign-up-btn:show {
     color: #FF6150 !important;
     background: #333333 !important;
-    border-color: #c0c0c0 !important;
+    border-color: #bcd4e6 !important;
 }
 
 /* Styles for the dropdown menu in the navbar */
@@ -153,7 +153,7 @@ body {
     background-color: #60A3D9;
     font-weight: normal;
     border-radius: 1px;
-    border-color: #c0c0c0;
+    border-color: #bcd4e6;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
 
@@ -161,7 +161,7 @@ body {
     color: #0A0A0A;
     font-weight: normal;
     border-radius: 1px;
-    border-color: #c0c0c0;
+    border-color: #bcd4e6;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
 
@@ -210,7 +210,7 @@ body {
     font-size: 13px;
     text-align: center;
     line-height: 26px;
-    background: #c0c0c0;
+    background: #bcd4e6;
     display: inline-block;
     border: 1px solid #e0e0e0;
     border-radius: 50%;
@@ -238,7 +238,7 @@ body {
 .arrow-down {
     margin-left: 5px;
     /* Reduce the margin to align the arrow with the dropdown text */
-    border: solid #c0c0c0;
+    border: solid #bcd4e6;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
@@ -280,7 +280,7 @@ body {
 
 .navbar-nav .nav-item.dropdown .arrow-down {
     margin-left: 5px;
-    border: solid #c0c0c0;
+    border: solid #bcd4e6;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
@@ -331,12 +331,12 @@ body {
 
 .google-btn {
     background: #ff4040 !important;
-    border-color: #c0c0c0 !important;
+    border-color: #bcd4e6 !important;
 }
 
 .facebook-btn {
     background: #4267b2 !important;
-    border-color: #c0c0c0 !important;
+    border-color: #bcd4e6 !important;
 }
 
 .navbar-toggler-icon {
